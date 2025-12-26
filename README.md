@@ -26,6 +26,7 @@
 
 ## 📑 Table of Contents
 - [Overview](#overview)
+- [Research Context](#research-context)
 - [System Architecture](#system-architecture)
 - [Quick Start](#quick-start)
 - [Main Components](#main-components)
@@ -41,7 +42,8 @@
 
 ## Overview
 
-DoHExfTlk is a **research-oriented platform** for studying and detecting data exfiltration via **DNS-over-HTTPS (DoH)**.  
+DoHExfTlk is a **research-oriented platform** for studying and detecting data exfiltration via **DNS-over-HTTPS (DoH)**.
+
 It combines:
 
 - **Network traffic capture**
@@ -56,6 +58,19 @@ It combines:
 - Benchmarking detection methods
 
 ---
+
+## Research Context
+
+DoHExfTlk is developed as part of an academic research project investigating the **detectability of data exfiltration over DNS-over-HTTPS (DoH)** in the presence of **evasion and adversarial strategies**.
+
+This work is formally described in the following paper:
+
+> **Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit**  
+> Adam Elaoumari  
+> University of Kent – MSc Cyber Security  
+> arXiv:2512.20423  
+> https://arxiv.org/abs/2512.20423  
+> https://doi.org/10.48550/arXiv.2512.20423  
 
 ## System Architecture
 
@@ -376,3 +391,4 @@ If used in academic work, please cite:
 
 
 ---
+
